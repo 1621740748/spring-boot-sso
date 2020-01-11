@@ -25,4 +25,6 @@ security:
         jwt:
             keyUri: http://localhost:8080/oauth/token_key
 
-
+logging:
+  level:
+     root: DEBUG
