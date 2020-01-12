@@ -21,7 +21,7 @@ security:
 
 securityconfig:
   logoutsuccssurl: /tosignout
-  permitall: /rest/**,/re**
+  permitall: /rest/**,/re**,/resource/**
   deniedpage: /deny
   urlroles: /**/new/** = admin;
             /**/edit/** = admin,editor;

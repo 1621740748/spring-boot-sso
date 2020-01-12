@@ -38,7 +38,7 @@ security:
 
 securityconfig:
   logoutsuccssurl: /tosignout
-  permitall: /rest/**,/bb**
+  permitall: /rest/**,/bb**,/resource/**
   deniedpage: /deny
   urlroles: /**/new/** = admin;
             /**/edit/** = admin,editor;
